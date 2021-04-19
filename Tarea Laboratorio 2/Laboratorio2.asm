@@ -34,3 +34,11 @@
 	mov	DI, [BX+2h]
 
 	int 20h
+
+
+	; COMMANDOS DE DEBUG
+
+	; r = mostrar estado de los registros
+	; t = ejecutar una sola instruccion
+	; g = ejecutar todo
+	; q = salir
